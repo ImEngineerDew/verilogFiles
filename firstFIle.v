@@ -1,6 +1,5 @@
-module firstFile: ();
+module firstFile;
     initial begin
-        $display("Hello world of everyone!");
-        $finish; //Stop the message
+        $display("Hello world of everyone");
     end    
 endmodule
