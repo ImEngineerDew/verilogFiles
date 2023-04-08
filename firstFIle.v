@@ -8,9 +8,6 @@
 
 module firstFile;
 
-initial begin
-  $display("This is my first program in Verilog");
-  #10 $finish;
-end
-
+initial
+$display("This is my first program in Verilog");
 end module
